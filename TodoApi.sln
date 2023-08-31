@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi.csproj", "{8BCBF58E-7E7B-41A8-B0B4-5E77723AAF51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi-Completed\TodoApi.csproj", "{8BCBF58E-7E7B-41A8-B0B4-5E77723AAF51}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApiDataLayerTesting", "..\TodoApiDataLayerTesting\TodoApiDataLayerTesting.csproj", "{3BFBACA3-5BED-4A98-A64F-93C24860FBC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApiDataLayerTesting", "TodoApiDataLayerTesting\TodoApiDataLayerTesting.csproj", "{3BFBACA3-5BED-4A98-A64F-93C24860FBC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoAPI.UnitTests", "..\TodoAPI.UnitTests\TodoAPI.UnitTests.csproj", "{7EAB829D-24BB-43AB-8EB3-F3CA42A9D2D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoAPI.UnitTests", "TodoAPI.UnitTests\TodoAPI.UnitTests.csproj", "{7EAB829D-24BB-43AB-8EB3-F3CA42A9D2D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

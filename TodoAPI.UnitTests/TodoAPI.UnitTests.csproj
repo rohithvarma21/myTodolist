@@ -25,7 +25,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TodoApi-Completed\TodoApi.csproj" />
-    <ProjectReference Include="..\TodoApiDataLayerTesting\TodoApiDataLayerTesting.csproj" />
   </ItemGroup>
 
 </Project>
