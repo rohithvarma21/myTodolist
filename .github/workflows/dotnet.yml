@@ -13,7 +13,7 @@ jobs:
 
     services:
       api:
-        image: todoapi-docker-image:latest
+        image: krchome6645/todoapi-docker-image
         ports:
           - 5017/tcp # Adjust the port if your API uses a different port
 
