@@ -35,6 +35,17 @@ namespace TodoApi.UnitTests
             //Assert.NotNull(todoItem.Name);
             Assert.NotEmpty(todoItem.Name);
         }
+        [Fact]
+        public void Name_Value_IsEmpty()
+        {
+            // Arrange
+            var todoItem = new TodoItem();
+            todoItem.Name = String.Empty;
+
+            // Act & Assert
+            //Assert.NotNull(todoItem.Name);
+            Assert.Empty(todoItem.Name);
+        }
 
     }
 }
