@@ -40,7 +40,7 @@ namespace TodoApiDataLayerTesting
             var todoItems = JsonConvert.DeserializeObject<List<TodoItem>>(responseContent);
             //Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
-            todoItems.Should().NotBeNullOrEmpty();
+            //todoItems.Should().NotBeNullOrEmpty();
             todoItems.Count.Should().Be(2);
             todoItems.Should().Contain(ti => ti.Name =="Test Todo 1" && ti.IsComplete == false);
             todoItems.Should().Contain(ti => ti.Name =="Test Todo 2" && ti.IsComplete == true);
