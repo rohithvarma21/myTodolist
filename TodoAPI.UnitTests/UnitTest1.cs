@@ -15,6 +15,16 @@ namespace TodoApi.UnitTests
             Assert.False(todoItem.IsComplete);
         }
         [Fact]
+        public void IsComplete_DefaultValue_ShouldBeTrue()
+        {
+            // Arrange
+            var todoItem = new TodoItem();
+            todoItem.IsComplete = true;
+
+            // Act & Assert
+            Assert.True(todoItem.IsComplete);
+        }
+        [Fact]
         public void Name_Value_IsNotNull()
         {
             // Arrange
@@ -24,6 +34,17 @@ namespace TodoApi.UnitTests
             // Act & Assert
             //Assert.NotNull(todoItem.Name);
             Assert.NotEmpty(todoItem.Name);
+        }
+        [Fact]
+        public void Name_Value_IsEmpty()
+        {
+            // Arrange
+            var todoItem = new TodoItem();
+            todoItem.Name = String.Empty;
+
+            // Act & Assert
+            //Assert.NotNull(todoItem.Name);
+            Assert.Empty(todoItem.Name);
         }
 
     }
