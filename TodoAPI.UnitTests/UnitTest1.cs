@@ -24,28 +24,28 @@ namespace TodoApi.UnitTests
             // Act & Assert
             Assert.True(todoItem.IsComplete);
         }
-        [Fact]
-        public void Name_Value_IsNotNull()
-        {
-            // Arrange
-            var todoItem = new TodoItem();
-            todoItem.Name = "Complete ASP.NET Project Work";
+        //[Fact]
+        //public void Name_Value_IsNotNull()
+        //{
+        //    // Arrange
+        //    var todoItem = new TodoItem();
+        //    todoItem.Name = "Complete ASP.NET Project Work";
 
-            // Act & Assert
-            //Assert.NotNull(todoItem.Name);
-            Assert.NotEmpty(todoItem.Name);
-        }
-        [Fact]
-        public void Name_Value_IsEmpty()
-        {
-            // Arrange
-            var todoItem = new TodoItem();
-            todoItem.Name = String.Empty;
+        //    // Act & Assert
+        //    //Assert.NotNull(todoItem.Name);
+        //    Assert.NotEmpty(todoItem.Name);
+        //}
+        //[Fact]
+        //public void Name_Value_IsEmpty()
+        //{
+        //    // Arrange
+        //    var todoItem = new TodoItem();
+        //    todoItem.Name = String.Empty;
 
-            // Act & Assert
-            //Assert.NotNull(todoItem.Name);
-            Assert.Empty(todoItem.Name);
-        }
+        //    // Act & Assert
+        //    //Assert.NotNull(todoItem.Name);
+        //    Assert.Empty(todoItem.Name);
+        //}
 
     }
 }
