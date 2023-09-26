@@ -13,7 +13,7 @@ jobs:
 
     services:
       api:
-        image: krchome6645/mytodo-api-dockerhub
+        image: krchome6645/mytodo-api-dockerhub:ubuntu
         ports:
           - 5017/tcp # Adjust the port if your API uses a different port
 
