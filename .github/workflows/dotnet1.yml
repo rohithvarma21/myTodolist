@@ -9,11 +9,11 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows
 
     services:
       api:
-        image: krchome6645/todoapi-docker-image
+        image: krchome6645/mytodo-api-dockerhub
         ports:
           - 5017/tcp # Adjust the port if your API uses a different port
 
