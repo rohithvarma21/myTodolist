@@ -16,7 +16,8 @@ namespace TodoApi.Models
             {
                 new TodoItem {Name = "Learn C#"},
                  new TodoItem {Name = "Learn ASP.NET Core"},
-                  new TodoItem {Name = "Build a web app"}
+                  new TodoItem {Name = "Build a web app"},
+                  new TodoItem {Name = "Build a mobile app"}
             };
             foreach( var todo in todos ) 
             { 
